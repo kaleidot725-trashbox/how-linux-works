@@ -1,0 +1,5 @@
+parallels@parallels-vm:~/Desktop/how-linux-works/04$ time taskset -c 0,1 ./sched 1 10000 10000
+
+real    0m29.883s
+user    0m29.712s
+sys     0m0.036s
